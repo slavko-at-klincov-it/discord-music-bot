@@ -153,5 +153,4 @@ HTTP 403 errors.
 
 ## License
 
-No open-source license has been selected yet. Publishing this repository does
-not grant reuse rights beyond those required to view it on GitHub.
+Released under the [MIT License](LICENSE).

@@ -2,8 +2,9 @@
   "name": "mac-mini-discord-music-bot",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
-  "description": "Private Discord music bot for playing YouTube audio from a Mac mini.",
+  "description": "Self-hosted Discord music bot for macOS voice channels.",
   "scripts": {
     "start": ".venv/bin/python bot.py",
     "start:node": "node src/index.js",
