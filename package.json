@@ -1,0 +1,27 @@
+{
+  "name": "mac-mini-discord-music-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Private Discord music bot for playing YouTube audio from a Mac mini.",
+  "scripts": {
+    "start": ".venv/bin/python bot.py",
+    "start:node": "node src/index.js",
+    "register": "node src/register-commands.js",
+    "doctor": "node src/doctor.js",
+    "doctor:python": ".venv/bin/python scripts/doctor-python.py",
+    "verify:relocation": ".venv/bin/python scripts/verify-relocation.py",
+    "smoke:youtube": ".venv/bin/python scripts/smoke-youtube.py",
+    "test:python": ".venv/bin/python -m unittest discover -s tests",
+    "setup:python": "/opt/homebrew/bin/python3.12 -m venv --clear .venv && .venv/bin/python -m ensurepip --upgrade && .venv/bin/python -m pip install 'pip==25.3' && .venv/bin/python -m pip install --no-cache-dir -r requirements.txt"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.2.3",
+    "opusscript": "^0.1.1"
+  }
+}

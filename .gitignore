@@ -1,0 +1,11 @@
+node_modules/
+.env
+.venv/
+.codex/
+cache/
+*.log
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+HANDOFF.md
